@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 *
 {
     margin: 0;
@@ -8,7 +11,7 @@ html,
 body
 {
     height: 100vh;
-    font-family: 'Arial';
+    font-family: 'Bebas Neue', cursive;
     background: rgb(24, 24, 24);
 }
 
@@ -34,7 +37,7 @@ body{
 
 h1{
     font-size:4rem;
-    color:white;
+    color:rgb(212, 209, 209);
     text-transform:uppercase;
 }
 
@@ -53,18 +56,22 @@ section
         flex-direction: column;
         text-align: center;
         padding:3rem;
-        margin-top:14rem;
+       
         overflow-x:hidden;
+        
+        
         
         
     }
     
     
-    h1 
+    .container h1 
     {
         
-        font-size:1.7rem;
+        font-size:3rem;
         align-items:center;
+        margin-top:6rem;
+        
     }
 
 
