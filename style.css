@@ -43,12 +43,33 @@ section
     height:100vh;
 }
 
-.logo img
-{
-    position:fixed;
-    margin:0;
-    padding:0;
-    height:24rem;
-    
 
+
+@media (max-width:500px)
+{
+    .container
+    {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        padding:3rem;
+        margin-top:14rem;
+        overflow-x:hidden;
+        
+        
+    }
+    
+    
+    h1 
+    {
+        
+        font-size:1.7rem;
+        align-items:center;
+    }
+
+
+    .webgl
+    {
+        max-width:100%;
+    }
 }
