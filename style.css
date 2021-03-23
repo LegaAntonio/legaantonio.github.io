@@ -42,3 +42,13 @@ section
 {
     height:100vh;
 }
+
+.logo img
+{
+    position:fixed;
+    margin:0;
+    padding:0;
+    height:24rem;
+    
+
+}

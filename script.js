@@ -1,30 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Antonio Horvat</title>
-</head>
-<body>
-    
-       <div class="container">
-        
-        <h1>Creating amazing experience</h1>
-    </div>
-    <canvas class="webgl"></canvas>
-    <section></section>
-    
-  <script src="three.min.js"></script>
-  
-  <script src="OrbitControls.js"></script>
-  <script>
+import './style.css'
+//import * as THREE from 'three'
+//import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+//import * as dat from 'dat.gui'
 
 // Loading
 const textureLoader = new THREE.TextureLoader()
-const normalTexture = textureLoader.load ('NormalMap69.png')
+const normalTexture = textureLoader.load ('/textures/NormalMap6.png')
 // Debug
-//const gui = new dat.GUI()
+const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
@@ -207,15 +190,3 @@ const tick = () =>
 }
 
 tick()
-
-
-  </script>
-  <script src="GLTFLoader.js"></script>
-  <script src="OrbitControls.js"></script> 
-  <script src="script.js"></script>
-
-     
- 
-    
-</body>
-</html>
